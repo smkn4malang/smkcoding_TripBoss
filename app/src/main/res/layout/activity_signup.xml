@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+    <ImageView
+        android:src="@drawable/contoh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Masukkan Email Anda"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginTop="40dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:paddingVertical="7dp"
+            android:gravity="center"
+            android:id="@+id/E-mail"
+            android:inputType="textEmailAddress"
+            android:hint="E-mail"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            tools:ignore="InvalidId" />
+        <Button
+            android:layout_width="wrap_content"
+            android:paddingHorizontal="35dp"
+            android:layout_height="wrap_content"
+            android:text="Daftar"
+            android:id="@+id/daftar"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</RelativeLayout>
