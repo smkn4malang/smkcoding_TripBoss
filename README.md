@@ -2,7 +2,12 @@
 
 This application can help people to find they favorite trip.
 We here to help your Trip.
+
+
 Easiest Operational, Simple Payment.
+This apps contains some bug, may the apps close sometimes.
+
+
 ![Login](screenshot/Screenshot_2018-09-02-11-49-13-77.png)
 ![Menu](screenshot/Screenshot_2018-09-02-11-49-17-20.png)
 ![Chart](screenshot/Screenshot_2018-09-02-11-49-19-39.png)
